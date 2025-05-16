@@ -4,7 +4,7 @@ package com.leetcode;
 public class FlattenBinaryTree {
 
 
-    class TreeNode {
+    static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

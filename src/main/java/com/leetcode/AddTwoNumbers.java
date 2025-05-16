@@ -1,15 +1,16 @@
 package com.leetcode;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-}
 
 public class AddTwoNumbers {
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+    }
+
     // Helper method to print the linked list
     public static void printList(ListNode node) {
         while (node != null) {
